@@ -19,4 +19,4 @@ Possible variables to be open to the end-users
 Known issues
 ------------
 
-This demo was successfully tested in Chrome, Firefox & Safari. Because it relies on the Flexbox model for the input placeholder, IE9 and below won't render this very nicely ;)
+This demo was successfully tested in Chrome, Firefox & Safari. Because it relies on the Flexbox model for the input placeholder, IE8 & IE9 will need to be [polyfilled](https://github.com/10up/flexibility/).
