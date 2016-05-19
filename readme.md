@@ -6,15 +6,17 @@ Demo for a CSS-only ADC 2.0 proposal for single questions.
 Preview
 -------
 
-![Preview of Granite radios](https://raw.githubusercontent.com/AskiaADX/demo-FloatingLabels/master/demo-floatinglabels.gif)
+![Preview of Inline Material Flex](https://raw.githubusercontent.com/AskiaADX/demo-InlineMaterialFlex/master/demo-InlineMaterialFlex.gif)
 
 Possible variables to be open to the end-users
 ----------------------------------------------
 
--	Input label color
--	Input label font size
--	Input label transition timing, duration & delay
--	Input width
+-	`.menu` background color
+-	`.menu` color
+-	`label` background color on hover
+-	`label` color on hover
+-	`label` background color when active
+-	`label` color when active
 
 Known issues
 ------------
