@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='normalize.css' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+        :root {
+            font-size: 16px;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        * {
+          margin: 0;
+          padding: 0;
+        }
+
+        *, *:before, *:after {
+          box-sizing: border-box;
+        }
+
+        body {
+          color: #555;
+          background: #e5e5e5;
+          font-size: 1rem;
+        }
+
+        h1 {
+          margin: 2em 0;
+          font-size: 1.35rem;
+          font-weight: 300;
+          text-align: center;
+        }
+
+        .menu {
+          display: flex;
+          width: 80vw;
+          height: 3em;
+          margin: 2vh auto;
+          border-radius: 0.125em;
+          background: #fff;
+          box-shadow: 0 1px 2px rgba(0,0,0,.2);
+          overflow: hidden;
+        }
+
+        .title {
+          padding: 0 1.2em;
+          line-height: 3em;
+        }
+
+        .custom {
+          flex: 1;
+        }
+
+        .custom input {
+          position: absolute;
+          opacity: 0;
+        }
+
+        .custom label {
+          display: block;
+          height: 3em;
+          line-height: 3em;
+          text-align: center;
+          cursor: pointer;
+          transition: background ease-in .2s, color ease-in .2s;
+        }
+
+        .custom label:hover {
+          background: #EEE;
+        }
+
+        .custom input:checked ~ label {
+          color: #FFF;
+          background: #DF4335;
+        }
+
+        @media (min-width: 1200px) {
+            body {
+                font-size: 1.1rem;
+            }
+        }
+
+        @media (max-width: 799px) {
+            body {
+                font-size: .9rem;
+            }
+            .menu {
+                width: 90vw;
+            }
+            .title {
+                padding: 0 0 0 1em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                font-size: .8rem;
+            }
+            .menu {
+                width: 95vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Inline flex single radios</h1>
+    <div class='menu'>
+        <div class='title'>How many cars do you own?</div>
+        <div class='custom'>
+            <input id='f1' name='cars' type='radio'>
+            <label for='f1'>1</label>
+        </div>
+        <div class='custom'>
+            <input id='f2' name='cars' type='radio'>
+            <label for='f2'>2</label>
+        </div>
+        <div class='custom'>
+            <input id='f3' name='cars' type='radio'>
+            <label for='f3'>3</label>
+        </div>
+        <div class='custom'>
+            <input id='f4' name='cars' type='radio'>
+            <label for='f4'>4</label>
+        </div>
+        <div class='custom'>
+            <input id='f5' name='cars' type='radio'>
+            <label for='f5'>5</label>
+        </div>
+        <div class='custom'>
+            <input id='f6' name='cars' type='radio'>
+            <label for='f6'>6</label>
+        </div>
+    </div>
+    <div class='menu'>
+        <div class='title'>How many bikes do you own?</div>
+        <div class='custom'>
+            <input id='e1' name='bikes' type='radio'>
+            <label for='e1'>1</label>
+        </div>
+        <div class='custom'>
+            <input id='e2' name='bikes' type='radio'>
+            <label for='e2'>2</label>
+        </div>
+        <div class='custom'>
+            <input id='e3' name='bikes' type='radio'>
+            <label for='e3'>3</label>
+        </div>
+        <div class='custom'>
+            <input id='e4' name='bikes' type='radio'>
+            <label for='e4'>4</label>
+        </div>
+        <div class='custom'>
+            <input id='e5' name='bikes' type='radio'>
+            <label for='e5'>5</label>
+        </div>
+        <div class='custom'>
+            <input id='e6' name='bikes' type='radio'>
+            <label for='e6'>6</label>
+        </div>
+    </div>
+    <div class='menu'>
+        <div class='title'>How many cats do you own?</div>
+        <div class='custom'>
+            <input id='d1' name='cats' type='radio'>
+            <label for='d1'>1</label>
+        </div>
+        <div class='custom'>
+            <input id='d2' name='cats' type='radio'>
+            <label for='d2'>2</label>
+        </div>
+        <div class='custom'>
+            <input id='d3' name='cats' type='radio'>
+            <label for='d3'>3</label>
+        </div>
+        <div class='custom'>
+            <input id='d4' name='cats' type='radio'>
+            <label for='d4'>4</label>
+        </div>
+        <div class='custom'>
+            <input id='d5' name='cats' type='radio'>
+            <label for='d5'>5</label>
+        </div>
+        <div class='custom'>
+            <input id='d6' name='cats' type='radio'>
+            <label for='d6'>6</label>
+        </div>
+    </div>
+</body>
+
+</html>
